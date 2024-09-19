@@ -5,9 +5,11 @@ type FormState = {
   textarea: string;
   loading: boolean;
   error: string;
+  username: string;
   setTextArea: (textarea: string) => void;
   setLoading: (loading: boolean) => void;
   setError: (error: string) => void;
+  setUsername: (username: string) => void;
 };
 
 export const useAppStore = create<FormState>()(
@@ -15,8 +17,10 @@ export const useAppStore = create<FormState>()(
     textarea: "",
     loading: false,
     error: "",
+    username: "",
     setTextArea: (textarea) => set({ textarea }),
     setLoading: (loading) => set({ loading }),
     setError: (error) => set({ error }),
+    setUsername: (username) => set({ username }),
   }))
 );

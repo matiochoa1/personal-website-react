@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import AnimationLayout from "./AnimationLayout";
 import Header from "../components/Header";
 
 export default function Layout() {
@@ -7,7 +7,7 @@ export default function Layout() {
       <Header />
 
       <main>
-        <Outlet />
+        <AnimationLayout />
       </main>
     </>
   );
