@@ -1,6 +1,6 @@
 import { FormEvent, KeyboardEvent, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAppStore } from "../store";
+import { useAppStore } from "../stores/useAppStore";
 import Error from "../components/Error";
 import Spinner from "../components/Spinner";
 

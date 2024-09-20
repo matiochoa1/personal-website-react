@@ -1,5 +1,6 @@
 import AnimationLayout from "./AnimationLayout";
 import Header from "../components/Header";
+import Modal from "../components/Modal";
 
 export default function Layout() {
   return (
@@ -9,6 +10,8 @@ export default function Layout() {
       <main>
         <AnimationLayout />
       </main>
+
+      <Modal />
     </>
   );
 }

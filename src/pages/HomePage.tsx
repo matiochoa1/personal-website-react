@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useAppStore } from "../store";
+import { useAppStore } from "../stores/useAppStore";
 
 export default function HomePage() {
   const navigate = useNavigate();
