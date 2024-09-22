@@ -1,7 +1,10 @@
 import { IconBrandLinkedin } from "@tabler/icons-react";
 import Navigation from "./Navigation";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
+
   return (
     <>
       <header className="sticky top-0 z-50 flex flex-col justify-between gap-6 px-6 py-4 bg-transparent sm:flex-row sm:gap-0">
@@ -21,7 +24,10 @@ export default function Header() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="pr-6 text-xl font-bold text-center text-white">
+              <span
+                className="pr-6 text-xs font-bold text-center text-white sm:text-xl"
+                onClick={() => navigate("/portfolio/home")}
+              >
                 Matias Ochoa - Portfolio
               </span>
             </span>

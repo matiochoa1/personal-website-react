@@ -4,19 +4,21 @@ export default function WorkExperience() {
   return (
     <>
       <div className="container mx-auto">
-        <section className="flex items-center justify-center gap-4 border-b-2 border-white mt-52 border-opacity-70 border-">
+        <section className="flex items-center justify-center gap-4 mt-10 border-b-2 border-white sm:mt-52 border-opacity-70 border-">
           <IconBriefcase stroke={2} color="white" size={50} />
-          <h2 className="text-6xl text-white">Work Experience</h2>
+          <h2 className="text-4xl text-white sm:text-6xl">Work Experience</h2>
         </section>
 
-        <section className="flex flex-col gap-4 pl-4 mt-10 border-l-2 border-red-700 border-opacity-80">
-          <h2 className="text-4xl text-white">
+        <section className="flex flex-col gap-2 mt-10 sm:gap-4 sm:pl-4 sm:border-l-2 sm:border-red-700 sm:border-opacity-80">
+          <h2 className="p-2 text-3xl text-center text-white sm:text-start sm:p-0">
             <span>Microsoft</span>: Sr. Technical Support Engineer
           </h2>
-          <span className="text-lg font-bold text-red-500">2024 - Now</span>
+          <span className="text-lg font-bold text-center text-red-500 sm:text-start">
+            2024 - Now
+          </span>
 
           <div>
-            <p className="w-1/2 font-bold text-white">
+            <p className="w-full p-4 font-bold text-center text-white sm:p-0 sm:w-1/2 sm:text-start">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates tempora quo adipisci hic corporis delectus repellendus
               debitis inventore! Sequi, assumenda! Minus delectus natus illo
@@ -25,14 +27,16 @@ export default function WorkExperience() {
           </div>
         </section>
 
-        <section className="flex flex-col items-end gap-4 pr-4 mt-10 border-r-2 border-red-700 border-opacity-80">
-          <h2 className="text-4xl text-white">
+        <section className="flex flex-col gap-2 mt-10 sm:gap-4 sm:pr-4 sm:border-r-2 sm:border-red-700 sm:items-end sm:border-opacity-80">
+          <h2 className="p-2 text-3xl text-center text-white sm:text-end sm:p-0">
             <span>Microsoft</span>: Technical Support Engineer
           </h2>
-          <span className="text-lg font-bold text-red-500">2022 - 2024</span>
+          <span className="text-lg font-bold text-center text-red-500 sm:text-end">
+            2022 - 2024
+          </span>
 
-          <div className="flex flex-col items-end">
-            <p className="w-1/2 font-bold text-white text-end">
+          <div className="flex flex-col sm:items-end">
+            <p className="p-4 font-bold text-center text-white w-ful sm:p-0 sm:w-1/2 sm:text-end">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates tempora quo adipisci hic corporis delectus repellendus
               debitis inventore! Sequi, assumenda! Minus delectus natus illo
@@ -41,14 +45,16 @@ export default function WorkExperience() {
           </div>
         </section>
 
-        <section className="flex flex-col gap-4 pl-4 mt-10 border-l-2 border-red-700 border-opacity-80">
-          <h2 className="text-4xl text-white">
+        <section className="flex flex-col gap-2 mt-10 sm:gap-4 sm:pl-4 sm:border-l-2 sm:border-red-700 sm:border-opacity-80">
+          <h2 className="p-2 text-3xl text-center text-white sm:p-0 sm:text-start">
             <span>Xandr</span>: Sr Analyst - Product Support
           </h2>
-          <span className="text-lg font-bold text-red-500">2021 - 2022</span>
+          <span className="text-lg font-bold text-center text-red-500 sm:text-start">
+            2021 - 2022
+          </span>
 
           <div>
-            <p className="w-1/2 font-bold text-white">
+            <p className="w-full p-4 font-bold text-center text-white sm:text-start sm:p-0 sm:w-1/2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates tempora quo adipisci hic corporis delectus repellendus
               debitis inventore! Sequi, assumenda! Minus delectus natus illo

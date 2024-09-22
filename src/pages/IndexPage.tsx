@@ -50,7 +50,7 @@ export default function IndexPage() {
 
   return (
     <>
-      <div className="flex items-center h-dvh">
+      <div className="flex items-center p-4 h-dvh sm:p-0">
         {loading ? (
           <Spinner />
         ) : (
@@ -60,10 +60,10 @@ export default function IndexPage() {
           >
             {error && <Error>{error}</Error>}
             <div className="mb-2">
-              <span className="text-red-500">mochoa@portfolio:~$</span>{" "}
+              <span className="text-red-500 ">mochoa@portfolio:~$</span>{" "}
             </div>
             <textarea
-              className="w-full h-24 p-2 font-mono text-2xl text-white bg-black border-none rounded-lg resize-none focus:outline-none caret-red-500 caret-w-4"
+              className="w-full h-24 p-2 font-mono text-lg text-white bg-black border-none rounded-lg resize-none sm:text-2xl focus:outline-none caret-red-500 caret-w-4"
               placeholder="Type 'init YourName' and hit Enter"
               ref={textareaRef}
               value={textarea}

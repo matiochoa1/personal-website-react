@@ -15,7 +15,7 @@ export default function AboutMe() {
   return (
     <>
       <div>
-        <div className="container flex items-center mx-auto mt-20">
+        <div className="container flex flex-col items-center m-10 mx-auto sm:mt-20 sm:flex-row">
           <div>
             <img
               src="/public/me.png"
@@ -25,11 +25,11 @@ export default function AboutMe() {
             />
           </div>
 
-          <div className="h-full">
-            <h2 className="text-6xl font-bold text-white bounce-once">
+          <div className="container h-full p-6 mx-auto">
+            <h2 className="text-5xl font-bold text-center text-white sm:text-6xl bounce-once sm:text-start">
               {content.title}
             </h2>
-            <div className="mt-10">
+            <div className="mt-10 text-center sm:text-start">
               {content.paragraphs.map((paragraph, index) => (
                 <p
                   key={index}
