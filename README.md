@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# Personal Portfolio Webpage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio webpage built using modern web technologies. The project showcases various sections such as About Me, Projects, Knowledge, and Contact. It is designed to be fully responsive and provides a smooth user experience.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
 
-## Expanding the ESLint configuration
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **@headlessui/react**: A set of completely unstyled, fully accessible UI components for React.
+- **@tabler/icons-react**: A collection of free and open-source icons for React.
+- **React Router**: A library for routing in React applications.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### State Management
 
-- Configure the top-level `parserOptions` property like this:
+- **Zustand**: A small, fast, and scalable bearbones state-management solution using simplified flux principles.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Other Tools
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **EmailJS**: A service to send emails directly from the frontend.
+- **Fetch API**: A modern interface for making HTTP requests in the browser.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Features
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Responsive Design**: The webpage is fully responsive and works well on all screen sizes.
+- **Smooth Transitions**: Utilizes Tailwind CSS for smooth transitions and animations.
+- **Email Integration**: Allows users to send emails directly from the contact form.
+- **State Management**: Uses Zustand for efficient state management.
+- **Dynamic Content**: Fetches and displays dynamic content from a JSON file.

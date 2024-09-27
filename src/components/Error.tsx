@@ -1,8 +1,9 @@
-import { ReactNode } from "react";
-export default function Error({ children }: { children: ReactNode }) {
+export const Error = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="p-2 mb-2 text-lg font-bold text-center text-white bg-red-900 rounded-lg">
+    <p className="p-3 my-4 text-sm font-bold text-center text-white uppercase bg-red-600">
       {children}
-    </div>
+    </p>
   );
-}
+};
+
+export default Error;
