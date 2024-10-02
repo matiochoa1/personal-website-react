@@ -1,8 +1,15 @@
 {
-  "title": "hey there, I'm Matias!",
-  "paragraphs": [
-    "Senior Technical Support Engineer at Microsoft and Front-End Developer.",
-    "+3 years of Experience. From Madrid, Spain.",
-    "Specialized in the AdTech industry and focused on developing internal tools to optimize time efficiency."
-  ]
+	"title": "hey there, I'm Matias!",
+	"paragraphs": [
+		"Senior Technical Support Engineer at Microsoft and Full Stack Developer.",
+		"+3 years of Experience. From Madrid, Spain.",
+		"Specialized in the AdTech industry and focused on developing internal tools to optimize time efficiency."
+	],
+	"currentExperience": [
+		"Automation Service Engineer",
+		"Full Stack Developer",
+		"Develop automated solutions to streamline tasks for internal stakeholders, enhancing efficiency and saving time",
+		"AdTech support on Invest DSP",
+		"Incident Management and Data Analysis"
+	]
 }
