@@ -7,7 +7,7 @@ export default function Header() {
 
 	return (
 		<>
-			<header className="sticky top-0 z-40 flex flex-col justify-between gap-6 px-6 py-4 bg-transparent sm:flex-row sm:gap-0">
+			<header className="flex flex-col justify-between gap-6 px-6 py-4 bg-transparent sm:flex-row sm:gap-0">
 				<div className="relative group">
 					<div className="absolute inset-0 transition duration-200 rounded-lg opacity-75 bg-gradient-to-r from-red-700 to-purple-900 blur-xl group-hover:opacity-100"></div>
 					<div className="relative flex items-center justify-center gap-2 py-4 leading-none divide-x divide-gray-500 rounded-lg cursor-pointer bg-slate-900 px-7">
@@ -24,9 +24,9 @@ export default function Header() {
 								/>
 							</svg>
 							<span
-								className="pr-6 text-xs font-bold text-center text-white sm:text-xl"
+								className="pr-4 text-xs font-bold text-center text-white sm:text-xl"
 								onClick={() => navigate("/portfolio/home")}>
-								Matias Ochoa - Portfolio
+								Matias Ochoa
 							</span>
 						</span>
 

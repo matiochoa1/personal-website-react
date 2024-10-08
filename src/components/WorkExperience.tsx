@@ -17,7 +17,7 @@ export default function WorkExperience() {
 			<div className="container p-6 mx-auto">
 				<section className="flex items-center justify-center gap-4 mt-10 border-b-2 border-white sm:mt-52 border-opacity-70 border-">
 					<IconBriefcase stroke={2} color="white" size={50} />
-					<h2 className="text-4xl text-white sm:text-6xl">Work Experience</h2>
+					<h2 className="text-4xl text-white sm:text-6xl">Experience</h2>
 				</section>
 
 				<section className="flex flex-col gap-2 mt-10 sm:gap-4 sm:pl-4 sm:border-l-2 sm:border-red-700 sm:border-opacity-80">
