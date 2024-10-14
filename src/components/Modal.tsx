@@ -105,6 +105,24 @@ export default function Modal() {
 													Incident Management
 												</p>
 											</div>
+
+											<div className="flex-col w-full p-4 rounded-lg opacity-75 bg-slate-900">
+												<h3 className="text-xl font-bold text-center text-red-400">
+													Education
+												</h3>
+												<p className="text-lg text-white">
+													Business Administration - UES21
+												</p>
+												<p className="text-lg text-white">
+													FP Superior - DAM - Medac
+												</p>
+												<p className="text-lg text-white">
+													Desarrollo Full Stack - Udemy
+												</p>
+												<p className="text-lg text-white">
+													React & Typescript - Udemy
+												</p>
+											</div>
 										</div>
 									</DialogTitle>
 

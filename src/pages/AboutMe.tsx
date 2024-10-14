@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useAppStore } from "../stores/useAppStore";
 import WorkExperience from "../components/WorkExperience";
 import Modal from "../components/Modal";
+import Skills from "../components/Skills";
 
 export default function AboutMe() {
 	const [content, setContent] = useState({ title: "", paragraphs: [] });
@@ -50,6 +51,8 @@ export default function AboutMe() {
 
 				<Modal />
 				<WorkExperience />
+
+				<Skills />
 			</div>
 		</>
 	);

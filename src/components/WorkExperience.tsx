@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 export default function WorkExperience() {
 	const [content, setContent] = useState({
 		currentExperience: [],
+		previousExperience: [],
+		firstExperience: [],
 	});
 
 	useEffect(() => {
@@ -15,7 +17,7 @@ export default function WorkExperience() {
 	return (
 		<>
 			<div className="container p-6 mx-auto">
-				<section className="flex items-center justify-center gap-4 mt-10 border-b-2 border-white sm:mt-52 border-opacity-70 border-">
+				<section className="flex items-center justify-center gap-4 mt-4 border-b-2 border-white sm:mt-52 border-opacity-70 border-">
 					<IconBriefcase stroke={2} color="white" size={50} />
 					<h2 className="text-4xl text-white sm:text-6xl">Experience</h2>
 				</section>
@@ -37,7 +39,7 @@ export default function WorkExperience() {
 										index === 0
 											? "text-yellow-500 font-bold"
 											: index === 1
-											? "text-hite font-bold"
+											? "text-teal-400 font-bold"
 											: "text-white font-bold"
 									}>
 									{experience}
@@ -56,11 +58,20 @@ export default function WorkExperience() {
 					</span>
 
 					<div className="flex flex-col sm:items-end">
-						<p className="p-4 font-bold text-center text-white w-ful sm:p-0 sm:w-1/2 sm:text-end">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Voluptates tempora quo adipisci hic corporis delectus repellendus
-							debitis inventore! Sequi, assumenda! Minus delectus natus illo
-							cumque voluptas! Ipsum cum molestias beatae!
+						<p className="w-full p-4 font-bold text-center text-white sm:p-0 sm:text-end">
+							{content.previousExperience.map((experience, index) => (
+								<p
+									key={index}
+									className={
+										index === 0
+											? "text-yellow-500 font-bold"
+											: index === 1
+											? "text-teal-400 font-bold"
+											: "text-white font-bold"
+									}>
+									{experience}
+								</p>
+							))}
 						</p>
 					</div>
 				</section>
@@ -75,10 +86,19 @@ export default function WorkExperience() {
 
 					<div>
 						<p className="w-full p-4 font-bold text-center text-white sm:text-start sm:p-0 sm:w-1/2">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Voluptates tempora quo adipisci hic corporis delectus repellendus
-							debitis inventore! Sequi, assumenda! Minus delectus natus illo
-							cumque voluptas! Ipsum cum molestias beatae!
+							{content.firstExperience.map((experience, index) => (
+								<p
+									key={index}
+									className={
+										index === 0
+											? "text-yellow-500 font-bold"
+											: index === 1
+											? "text-teal-400 font-bold"
+											: "text-white font-bold"
+									}>
+									{experience}
+								</p>
+							))}
 						</p>
 					</div>
 				</section>

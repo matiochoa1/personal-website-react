@@ -3,13 +3,26 @@
 	"paragraphs": [
 		"Senior Technical Support Engineer at Microsoft and Full Stack Developer.",
 		"+3 years of Experience. From Madrid, Spain.",
-		"Specialized in the AdTech industry and focused on developing internal tools to optimize time efficiency."
+		"Specialized in the AdTech industry and full stack developer of internal tools to optimize time efficiency."
 	],
 	"currentExperience": [
 		"Automation Service Engineer",
 		"Full Stack Developer",
-		"Develop automated solutions to streamline tasks for internal stakeholders, enhancing efficiency and saving time",
+		"Developer of automated solutions to streamline tasks for internal stakeholders, enhancing efficiency and saving time",
 		"AdTech support on Invest DSP",
-		"Incident Management and Data Analysis"
+		"Incident Management and Data Analysis for product improvement"
+	],
+	"previousExperience": [
+		"Provide Support to top-tier clients",
+		"Incident Management",
+		"Troubleshooting and debugging client's issues with our platform",
+		"Developer of tools for internal stakeholders",
+		"Reporting SME - Full understanding of the delivery of data"
+	],
+	"firstExperience": [
+		"Providing support to clients",
+		"Debugging of campaigns and troubleshooting",
+		"Kickoff of pilots (products to be released to production)",
+		"Product Support Advocate of tier 1 clients"
 	]
 }

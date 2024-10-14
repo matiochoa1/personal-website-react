@@ -5,6 +5,7 @@ import Error from "../components/Error";
 import { useAppStore } from "../stores/useAppStore";
 import Notification from "../components/Notification";
 import { IconMessageChatbot } from "@tabler/icons-react";
+import DownloadCv from "../components/DownloadCv";
 
 export default function Contact() {
 	const {
@@ -34,7 +35,7 @@ export default function Contact() {
 	return (
 		<>
 			<div className="container mt-10 sm:mx-auto">
-				<h2 className="flex items-center justify-center gap-2 mb-10 text-4xl font-black text-center text-white">
+				<h2 className="flex flex-col items-center justify-center gap-2 p-2 mb-10 text-4xl font-black text-center text-white lg:flex-row lg:p-0">
 					<span>
 						<IconMessageChatbot stroke={2} size={36} />
 					</span>
@@ -112,6 +113,8 @@ export default function Contact() {
 						Submit
 					</button>
 				</form>
+
+				<DownloadCv />
 				<Notification />
 			</div>
 		</>
