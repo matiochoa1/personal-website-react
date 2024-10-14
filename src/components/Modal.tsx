@@ -50,7 +50,9 @@ export default function Modal() {
 										className="my-5 text-4xl font-extrabold text-center text-white">
 										More about me...
 									</DialogTitle>
-									<DialogTitle as="div" className="flex gap-2 my-5">
+									<DialogTitle
+										as="div"
+										className="flex flex-col gap-2 my-5 lg:flex-row">
 										<div className="flex flex-col w-full gap-2 ">
 											<div className="flex flex-col w-full p-4 rounded-lg opacity-75 bg-slate-900">
 												<h3 className="text-xl font-bold text-center text-orange-400">
