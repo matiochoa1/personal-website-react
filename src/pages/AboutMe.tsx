@@ -20,7 +20,7 @@ export default function AboutMe() {
 				<div className="container flex flex-col items-center m-10 mx-auto sm:mt-20 sm:flex-row">
 					<div>
 						<img
-							src="/public/me.png"
+							src="/me.png"
 							alt="My photo"
 							className="h-auto max-w-full shadow-lg cursor-pointer gradient-mask-t-[transparent,rgba(0,0,0)_90%] hover:scale-105 transition-transform duration-300"
 							onClick={showModal}
