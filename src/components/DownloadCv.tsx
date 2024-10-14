@@ -3,7 +3,7 @@ import { IconDownload } from "@tabler/icons-react";
 export default function DownloadCv() {
 	return (
 		<>
-			<div className="container mx-60">
+			<div className="container mx-6 lg:mx-60">
 				<div className="mt-4">
 					<a
 						href="/files/matias-cv.pdf"
